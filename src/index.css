@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+:root {
+  --primary-color:#1d1e22;
+  --primary-forground-color:#feda6a;
+  --secondary-color:#393f4d;
+  --secondary-forground-color:#d4d4dc;
+}
