@@ -7,6 +7,7 @@ function PersonalDetail() {
   return (
     <>
     <BackContinue>
+      <div className='text-primary-forground-color text-xl text-center  mb-7 '>Profile Details</div>
     <div className='flex flex-col justify-center   '>
       <div className='flex flex-col content-center space-y-2 mb-2'>
         <div className='w-[138px] h-[177px] self-center'>
@@ -32,9 +33,6 @@ function PersonalDetail() {
       </div>
     </div>
     </BackContinue>
-    <div>
-      <ResumeViewArea/>
-    </div>
     </>
   )
 }
